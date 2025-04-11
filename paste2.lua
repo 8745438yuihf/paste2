@@ -1,6 +1,8 @@
-local randomhit = {
-  "Head",
-  "Torso"
+local ran = {
+"Head",
+"Torso"
 }
-local ran = math.random(#randomhit)
-print(randomhit[ran])
+while true do 
+print(ran[math.random(#ran)])
+wait(1)
+end
